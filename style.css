@@ -24,10 +24,15 @@ h1{
     padding: 10px 40px;
     border-radius: 3px;
 }
-
+.top-banner-texts{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top: 20px;
+}
 .amount-selection{
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 120px;
 }
 
 .all-amounts{
@@ -47,3 +52,23 @@ h1{
     border: solid #ff3d3d;
 }
 
+.forms{
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid rgb(224, 224, 224);
+}
+.donate-plans{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.go-middle{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.plans{
+    display: flex;
+    margin: 2px 100px 5px 100px;
+}
