@@ -12,7 +12,7 @@ h1{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #F7F7F7;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -31,27 +31,26 @@ h1{
 }
 .amount-selection{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 120px;
 }
-
 .all-amounts{
     display: flex;
-    margin: 50px 50px;
+    margin: 80px 50px 50px 100px;
 }
 .amounts{ 
+    color: gray;
+    font-weight: 900;
     background-image: linear-gradient(#f3f3f3, #f3f3f3);
     margin-left: 4%;
     margin-right: 4%;
     padding: 50px 50px;
     border-radius: 5px;
 }
-
 .middle{
     background-image: linear-gradient(#ffb2b2, #ffb2b2);
     border: solid #ff3d3d;
 }
-
 .forms{
     margin-bottom: 50px;
     font-size: 20px;
@@ -87,4 +86,20 @@ h1{
 }
 .education{
     background-image: linear-gradient(#90C8AC, #90C8AC);
+}
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(#191919, #191919);
+    font-family: 'Noto Sans', sans-serif;
+
+}
+footer h3{
+    font-size: 30px;
+    color: #C84B31;
+}
+footer p{
+    color: #ECDBBA;
 }
